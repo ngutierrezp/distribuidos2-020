@@ -1,1 +1,20 @@
-<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 751 693"><defs><style>.cls-1{fill:#05007f;}.cls-2{fill:#000baf;}</style></defs><title>logo</title><circle class="cls-1" cx="375.5" cy="87.5" r="87"/><path class="cls-2" d="M400.5,67A86.5,86.5,0,1,1,314,153.5,86.59,86.59,0,0,1,400.5,67m0-1A87.5,87.5,0,1,0,488,153.5,87.51,87.51,0,0,0,400.5,66Z" transform="translate(-25 -66)"/><circle class="cls-1" cx="87.5" cy="349.5" r="87"/><path class="cls-2" d="M112.5,329A86.5,86.5,0,1,1,26,415.5,86.59,86.59,0,0,1,112.5,329m0-1A87.5,87.5,0,1,0,200,415.5,87.51,87.51,0,0,0,112.5,328Z" transform="translate(-25 -66)"/><circle class="cls-1" cx="663.5" cy="349.5" r="87"/><path class="cls-2" d="M688.5,329A86.5,86.5,0,1,1,602,415.5,86.59,86.59,0,0,1,688.5,329m0-1A87.5,87.5,0,1,0,776,415.5,87.51,87.51,0,0,0,688.5,328Z" transform="translate(-25 -66)"/><circle class="cls-1" cx="375.5" cy="349.5" r="87"/><path class="cls-2" d="M400.5,329A86.5,86.5,0,1,1,314,415.5,86.59,86.59,0,0,1,400.5,329m0-1A87.5,87.5,0,1,0,488,415.5,87.51,87.51,0,0,0,400.5,328Z" transform="translate(-25 -66)"/><circle class="cls-1" cx="375.5" cy="605.5" r="87"/><path class="cls-2" d="M400.5,585A86.5,86.5,0,1,1,314,671.5,86.59,86.59,0,0,1,400.5,585m0-1A87.5,87.5,0,1,0,488,671.5,87.51,87.51,0,0,0,400.5,584Z" transform="translate(-25 -66)"/><rect class="cls-1" x="364" y="94" width="24" height="191"/><rect class="cls-1" x="364" y="391" width="24" height="191"/><rect class="cls-1" x="132" y="338" width="191" height="24"/><rect class="cls-1" x="435" y="339" width="191" height="24"/></svg>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 751 693">
+    <defs>
+        <style>.cls-1{fill:#05007f;}.cls-2{fill:#000baf;}</style>
+    </defs>
+    <title>logo</title>
+    <circle class="cls-1" cx="375.5" cy="87.5" r="87" />
+    <path class="cls-2" d="M400.5,67A86.5,86.5,0,1,1,314,153.5,86.59,86.59,0,0,1,400.5,67m0-1A87.5,87.5,0,1,0,488,153.5,87.51,87.51,0,0,0,400.5,66Z" transform="translate(-25 -66)" />
+    <circle class="cls-1" cx="87.5" cy="349.5" r="87" />
+    <path class="cls-2" d="M112.5,329A86.5,86.5,0,1,1,26,415.5,86.59,86.59,0,0,1,112.5,329m0-1A87.5,87.5,0,1,0,200,415.5,87.51,87.51,0,0,0,112.5,328Z" transform="translate(-25 -66)" />
+    <circle class="cls-1" cx="663.5" cy="349.5" r="87" />
+    <path class="cls-2" d="M688.5,329A86.5,86.5,0,1,1,602,415.5,86.59,86.59,0,0,1,688.5,329m0-1A87.5,87.5,0,1,0,776,415.5,87.51,87.51,0,0,0,688.5,328Z" transform="translate(-25 -66)" />
+    <circle class="cls-1" cx="375.5" cy="349.5" r="87" />
+    <path class="cls-2" d="M400.5,329A86.5,86.5,0,1,1,314,415.5,86.59,86.59,0,0,1,400.5,329m0-1A87.5,87.5,0,1,0,488,415.5,87.51,87.51,0,0,0,400.5,328Z" transform="translate(-25 -66)" />
+    <circle class="cls-1" cx="375.5" cy="605.5" r="87" />
+    <path class="cls-2" d="M400.5,585A86.5,86.5,0,1,1,314,671.5,86.59,86.59,0,0,1,400.5,585m0-1A87.5,87.5,0,1,0,488,671.5,87.51,87.51,0,0,0,400.5,584Z" transform="translate(-25 -66)" />
+    <rect class="cls-1" x="364" y="94" width="24" height="191" />
+    <rect class="cls-1" x="364" y="391" width="24" height="191" />
+    <rect class="cls-1" x="132" y="338" width="191" height="24" />
+    <rect class="cls-1" x="435" y="339" width="191" height="24" />
+</svg>
