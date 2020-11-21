@@ -2,15 +2,10 @@
   <!-- etiqueta propia de vuetiy para crear el navbar -->
   <v-app-bar
     app
+    absolute
     height="100"
-    elevate-on-scroll
-    class="custom-navbar"
-    
-    :class="[
-      scrollPosition > 0
-        ? 'custom-color-navbar-elevate'
-        : 'custom-color-navbar',
-    ]"
+    elevation="0"
+    class="custom-color-navbar"
   >
     <img
       v-if="$vuetify.breakpoint.width > 400"
@@ -20,7 +15,7 @@
     />
 
     <!-- En caso de ser la vista principal -->
-    <h2 class="font-logo font-weight-thin mr-4 ">World govt.</h2>
+    <h2 class="font-logo font-weight-thin mr-4">World govt.</h2>
 
     <!-- espacios -->
     &nbsp; &nbsp;
@@ -38,7 +33,7 @@
         text
         :to="item.url"
         link
-        :dark=" ($route.name == 'Inicio')  &&  (scrollPosition > 0 ? false : true) "
+        :dark="$route.name == 'Inicio' && (scrollPosition > 0 ? false : true)"
         active-class="active-url"
       >
         <v-container>
@@ -50,6 +45,28 @@
           </v-row>
         </v-container>
       </v-btn>
+    </div>
+
+    <div v-if="$vuetify.breakpoint.smAndDown">
+      <v-menu
+        
+        
+        rounded="b-lg"
+        offset-y
+        offset-x
+      >
+        <template v-slot:activator="{ attrs, on }">
+          <v-btn icon v-bind="attrs" v-on="on">
+            <v-icon> fas fa-ellipsis-v </v-icon>
+          </v-btn>
+        </template>
+
+        <v-list>
+          <v-list-item v-for="item in [].concat(modules).reverse()" :key="item.name" link :to="item.url">
+            <v-list-item-title v-text="item.name"></v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
     </div>
   </v-app-bar>
 </template>
