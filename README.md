@@ -22,21 +22,24 @@ Los requisistos de esta implementación es la creación de un sistema legado con
 
 ## Tecnologias utilizadas
 
+Las tecnologias utilizadas son:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+* Vue.js (JavaScript)
+* Ruby on Rails (Ruby)
+* PostgreSQL (DB)
 
-### Run your tests
-```
-npm run test
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Configuración del enterno
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+La información para la configuración de los enternos de desarrollo se encuentra en cada parte del proyecto:
+
+  * [Frontend](frontend/README.md)
+  * [Backend](backend/README.md)
+
+## Análisis del sistema
+
+
+
+## Capacidad de respuesta
+
+
