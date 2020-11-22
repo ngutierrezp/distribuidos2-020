@@ -91,6 +91,7 @@
                   name="input-10-1"
                   label="Número"
                   outlined
+                  
                 ></v-text-field>
               </v-col>
             </v-row>

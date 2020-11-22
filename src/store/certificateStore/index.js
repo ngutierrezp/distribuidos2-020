@@ -1,3 +1,4 @@
+import router from "@/router/index.js"
 import { instance, endPoints } from "@/api/index";
 
 const state = {
@@ -28,6 +29,7 @@ const actions = {
       .then(function(response) {
         console.log(response);
         commit("setSuccess", true);
+        router.push({ name: 'Permiso', params: {respose: response }})
       })
       .catch(function(error) {
         commit("setError", true);
@@ -35,6 +37,7 @@ const actions = {
       })
       .finally(function() {
         commit("setLoading", false);
+        
       });
   },
 };
