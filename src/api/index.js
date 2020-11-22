@@ -7,7 +7,7 @@ const endPoints = {
 
 
 const instance = axios.create({
-  baseURL: 'http://locaolhost:3000',
+  baseURL: 'http://localhost:3000',
   timeout: 30000,
 });
 
