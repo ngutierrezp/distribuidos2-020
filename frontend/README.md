@@ -13,7 +13,7 @@ npm run serve
 ```
 
 Al ingresar este comando se cargaran las dependencias necesarias para el enterno de desarrollo.
-Solo basta ingresar a la dirección: ```http://localhost:8080/ ``
+Solo basta ingresar a la dirección: ```http://localhost:8080/ ```
 
 
 
