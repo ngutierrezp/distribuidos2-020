@@ -36,6 +36,29 @@ La información para la configuración de los enternos de desarrollo se encuentr
   * [Frontend](frontend/README.md)
   * [Backend](backend/README.md)
 
+## Estructura de la aplicación
+
+### Vista de inicio
+
+![Vista inicio](images/inicio.png)
+
+### Vista del formulario paga generar certificado
+
+![Vista formulario](images/tramite.png)
+
+### Vista del permiso generado en la web
+
+![Vista formulario](images/permiso.png)
+
+### Vista del correo enviado a la dirección ingresada
+
+![Vista formulario](images/correo1.png)
+
+### Vista del contenido del correo
+
+![Vista formulario](images/correo2.png)
+
+
 ## Análisis del sistema
 
 Acontinuación se muestra una tabla resumen del analisis del sistema:
