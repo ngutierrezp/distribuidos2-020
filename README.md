@@ -40,7 +40,7 @@ La información para la configuración de los enternos de desarrollo se encuentr
 
 Acontinuación se muestra una tabla resumen del analisis del sistema:
 
-| Caracteristica | Descripcion | Lo cumple |
+| Caracteristica | Descripcion | Cumplimiento |
 |-|-|-|
 | Poner los recursos a disposición | Facilitar a los usuarios y aplicaciones acceder a recursos remotos de manera eficiente. | No se cumple. Esto debido a que al estar con un despliegue local, no se está facilitando ningún recurso de forma remota. Además no existe un sistema de autentificación y en cuanto a la seguridad, los datos no se encriptan al momento de enviarse desde el front al back y viceversa. |
 | Transparencia de la distribución | Esconder el hecho que procesos y recursos están físicamente distribuidos en múltiples computadores. | No se cumple. Como se trabaja de forma local, los componentes no se encuentran distribuidos , es decir, todo se encuentra dentro de localhost con puertos específicos. Con esto, no existe transparencia en el acceso, migración, ubicación, replicación, persistencia, fallos, etc. |
