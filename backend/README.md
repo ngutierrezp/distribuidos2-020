@@ -4,11 +4,11 @@
 
 ---
 
-bundle install
+```bundle install```
 
-yarn install
+```yarn install```
 
-rails s
+``` rails s```
 
 ---
 
@@ -16,11 +16,11 @@ rails s
 
 ---
 
-db_name : dist_database
+**db_name :** dist_database
 
-username: postgres
+**username:** postgres
 
-password: secret
+**password:** secret
 
 ---
 
@@ -28,7 +28,7 @@ password: secret
 
 ---
 
-rake db:migrate
+```rake db:migrate```
 
 ---
 
