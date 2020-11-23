@@ -21,8 +21,8 @@ ActiveRecord::Schema.define(version: 2020_11_20_011411) do
     t.string "address"
     t.string "reason"
     t.string "email"
-    t.datetime "starts_at"
-    t.datetime "ends_at"
+    t.string "starts_at"
+    t.string "ends_at"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

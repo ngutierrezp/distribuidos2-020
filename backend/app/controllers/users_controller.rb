@@ -4,8 +4,10 @@ class UsersController < ApplicationController # rubocop:todo Style/Documentation
   def create
     user = User.new(user_params)
     if user.save
-      user.update(starts_at: 15.minutes.from_now)
-      user.update(ends_at: 3.25.hours.from_now)
+      @starts = 15.minutes.from_now
+      @ends = 3.25.hours.from_now
+      user.update(starts_at: "#{@starts.to_date} #{@starts.strftime('%I:%M%p')}")
+      user.update(ends_at: "#{@ends.to_date} #{@ends.strftime('%I:%M%p')}")
       UserMailer.permission_confirmation(user).deliver_now
       render json: user, status: :created
     else
