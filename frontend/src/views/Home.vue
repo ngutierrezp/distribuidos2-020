@@ -24,13 +24,22 @@
           World Government
         </h1>
         <span
-          class="font-weight-thin headline"
+          class="font-weight-light headline"
           :class="$vuetify.breakpoint.smAndDown ? 'text-center' : ''"
         >
           Ahora puedes solicitar tus permisos temporales individuales para toda
           ocación con <b>World govt.</b>
+          <br/>
+          <br/>
+
+          Permitimos a las personas acceder al permiso temporal para desplazarse
+          desde las comunas que se encuentran en cuarentena, a raíz de la
+          emergencia sanitaria que enfrenta Chile por el Coronavirus (COVID-19).
+          <br/>
+          <br/>
+          Si cuidas tu salud, nos cuidas a todos.
         </span>
-        <v-row class="mt-10" justify="center">
+        <v-row class="my-10 " justify="center">
           <v-btn rounded dark to="/app" color="#05007f">
             Iniciar tramite
             <v-icon class="ml-3"> fas fa-arrow-right </v-icon>
@@ -38,10 +47,10 @@
         </v-row>
       </v-col>
       <!-- main-animation.svg -->
-      <v-col v-if="$vuetify.breakpoint.mdAndUp" cols="7">
+      <v-col v-if="$vuetify.breakpoint.mdAndUp" cols="7" >
         <v-img
           class="mx-auto w-auto mr-10"
-          :src="require('@/assets/animations/security-animate.svg')"
+          :src="require('@/assets/animations/closeoure.svg')"
           aspect-ratio="1"
           width="70%"
         />

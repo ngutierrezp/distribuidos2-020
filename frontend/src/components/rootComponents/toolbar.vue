@@ -77,7 +77,7 @@ export default {
   data: () => ({
     scrollPosition: 0,
     modules: [
-      { name: "Validad permiso", url: "/validate" },
+      //{ name: "Validar permiso", url: "/validate" },
       { name: "Tramite", url: "/app" },
       { name: "Inicio", url: "/" },
     ],

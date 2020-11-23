@@ -28,36 +28,6 @@
           </v-row>
         </v-card-text>
       </v-card>
-      <v-card v-if="success">
-        <v-spacer class="py-2"></v-spacer>
-
-        <div
-          class="swal2-icon swal2-success swal2-animate-success-icon"
-          
-        >
-          <div class="swal2-success-circular-line-left"></div>
-          <span class="swal2-success-line-tip"></span>
-          <span class="swal2-success-line-long"></span>
-          <div class="swal2-success-ring"></div>
-          <div class="swal2-success-fix"></div>
-          <div class="swal2-success-circular-line-right"></div>
-        </div>
-        
-        <v-card-title class="headline color-success justify-center"
-          >Listo!
-          </v-card-title
-        >
-        <v-card-text class="text-center font-weight-light title"
-          >Se ha generado el certificado correctamente </v-card-text
-        >
-        <v-card-text>
-          <v-row justify="center">
-            <v-btn color="blue darken-1" outlined @click="setSuccess(false)"
-              >OK</v-btn
-            >
-          </v-row>
-        </v-card-text>
-      </v-card>
     </v-dialog>
   </v-row>
 </template>
@@ -71,10 +41,10 @@ export default {
     };
   },
   computed: {
-    ...mapState("certificateStore", ["error","success"]),
+    ...mapState("certificateStore", ["error"]),
 
     local(){
-      return this.localError || this.localSuccess ? true : false;
+      return this.localError ? true : false;
     },
     localError: {
       get: function () {
@@ -82,14 +52,6 @@ export default {
       },
       set: function () {
         return this.setError(!this.error);
-      },
-    },
-    localSuccess: {
-      get: function () {
-        return this.success;
-      },
-      set: function () {
-        return this.setSuccess(!this.success);
       },
     },
   },

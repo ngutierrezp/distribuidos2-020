@@ -27,9 +27,10 @@ const actions = {
     await instance
       .post(endPoints.sendUser, payload)
       .then(function(response) {
-        console.log(response);
+        
+        console.log(response.data);
         commit("setSuccess", true);
-        router.push({ name: 'Permiso', params: {respose: response }})
+        router.push({ name: 'Permiso', params: {respose: response.data }})
       })
       .catch(function(error) {
         commit("setError", true);
@@ -37,6 +38,7 @@ const actions = {
       })
       .finally(function() {
         commit("setLoading", false);
+        
         
       });
   },
