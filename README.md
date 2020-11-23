@@ -91,3 +91,8 @@ En la siguiente tabla podremos ver especificamente la cantidad de escenarios que
 | 8 |100|100|0|
 | 9 |50|50|0|
 | 10 |25|25|0|
+
+![Gráfico Escenarios Test Capacidad](images/GraficoTest.png)
+
+Principalmente como se puede ver en la tabla y en el gráfico, hasta que la cantidad de request no supera las 500 request los escenarios lanzados igualan a los escenarios completados, esto es lo esperado según la teoría ya que son pocas peticiones dividas dentro de 1 segundos. Luego podemos ver que la cantidad de escenarios completados, si bien no cubren la totalidad de los escenarios lanzados, incrementan constantemente ya que a más escenarios lanzados, se deberían completar más escenarios.
+Luego llega un punto dentro del test 2 y el test 1 que los escenarios completados diminuyen, esto se debe a que la capacidad de la maquina se vea saturada con tantas request y esta no pueda procesar más de lo que puede, es en este momento que se genera una especie de cuello de botella que hace que se completen menos escenarios, y por este cuello de botella, baja la capacidad de la maquina para los test 1 y 2.
