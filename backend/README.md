@@ -2,8 +2,6 @@
 
 ## Run Server.
 
----
-
 ```bundle install```
 
 ```yarn install```
@@ -14,7 +12,6 @@
 
 ## Database Credentials.
 
----
 
 **db_name :** dist_database
 
@@ -26,8 +23,6 @@
 
 ## Run Migration.
 
----
-
 ```rake db:migrate```
 
 ---
@@ -36,7 +31,6 @@
 
 #### Create User.
 
----
 
   [POST] /users
 
