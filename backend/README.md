@@ -8,8 +8,6 @@
 
 ``` rails s```
 
----
-
 ## Database Credentials.
 
 
@@ -19,13 +17,10 @@
 
 **password:** secret
 
----
-
 ## Run Migration.
 
 ```rake db:migrate```
 
----
 
 ## Endpoints
 
