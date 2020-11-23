@@ -74,3 +74,20 @@ Acontinuación se muestra una tabla resumen del analisis del sistema:
 ## Capacidad de respuesta
 
 
+Para poder analizar y evaluar la capacidad del sistema utilizamos un toolkit llamado artillery.
+Este nos permite realizar test de capacidad para nuestra aplicación web, la manera en que hace este test es realizando X request en una ruta determinada (post en este caso) en un intervalo t de tiempo. Especificamente para testear la capacidad de respuesta dejamos constante el intervalo de tiempo en 1 segundo, y la cantidad de request las hicimos variar con los siguientes valores : [25, 50, 100, 250, 500, 1000, 2500, 5000, 7500, 10000].
+
+En la siguiente tabla podremos ver especificamente la cantidad de escenarios que fueron lanzados versus la cantidad de escenarios que fueron completados
+
+|Test|Escenarios Lanzados|Escenarios Completados|Diferencia|
+|:---|:---:|:---:|:---:|
+| 1 |10000|784| 9216|
+| 2 |7500|794|6706|
+| 3 |5000|812|4188|
+| 4 |2500|809|1691|
+| 5 |1000|538|462|
+| 6 |500|500|0|
+| 7 |250|250|0|
+| 8 |100|100|0|
+| 9 |50|50|0|
+| 10 |25|25|0|
