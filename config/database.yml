@@ -94,3 +94,4 @@ production:
   pool: 5
   username: postgres
   password: secret
+  host: <%= ENV['DB_HOST'] %>
