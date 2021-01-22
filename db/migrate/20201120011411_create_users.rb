@@ -14,4 +14,4 @@ class CreateUsers < ActiveRecord::Migration[6.0] # rubocop:todo Style/Documentat
     end
   end
 end
-<%= @user.address %>
+#<%= @user.address %>

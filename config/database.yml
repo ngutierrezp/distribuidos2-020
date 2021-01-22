@@ -19,16 +19,20 @@ default: &default
   encoding: unicode
   database: dist_database
   pool: 5
-  username: postgres
-  password: secret
+  username: ruby-getting-started
+  password: rubyDistri22020
+  host: 10.106.0.2
+
 
 development:
   adapter: postgresql
   encoding: unicode
   database: dist_database
   pool: 5
-  username: postgres
-  password: secret
+  username: ruby-getting-started
+  password: rubyDistri22020
+  host: 10.106.0.2
+
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -65,8 +69,10 @@ test:
   encoding: unicode
   database: dist_database
   pool: 5
-  username: postgres
-  password: secret
+  username: ruby-getting-started
+  password: rubyDistri22020
+  host: 10.106.0.2
+
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -92,6 +98,8 @@ production:
   encoding: unicode
   database: dist_database
   pool: 5
-  username: postgres
-  password: secret
-  host: <%= ENV['DB_HOST'] %>
+  username: ruby-getting-started
+  password: rubyDistri22020
+  host: 10.106.0.2
+
+
