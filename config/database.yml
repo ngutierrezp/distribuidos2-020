@@ -19,9 +19,9 @@ default: &default
   encoding: unicode
   database: dist_database
   pool: 5
-  username: <%= ENV['DB_USER'] %>
-  password: <%= ENV['PGPASSWORD'] %>
-  host: <%= ENV['DB_HOST'] %>
+  username: ruby-getting-started
+  password: DpDW^hZDml&KeRod@WTCUl
+  host: 10.102.0.2
 
 
 development:
@@ -29,9 +29,9 @@ development:
   encoding: unicode
   database: dist_database
   pool: 5
-  username: <%= ENV['DB_USER'] %>
-  password: <%= ENV['PGPASSWORD'] %>
-  host: <%= ENV['DB_HOST'] %>
+  username: ruby-getting-started
+  password: DpDW^hZDml&KeRod@WTCUl
+  host: 10.102.0.2
 
 
   # The specified database role being used to connect to postgres.
@@ -69,9 +69,9 @@ test:
   encoding: unicode
   database: dist_database
   pool: 5
-  username: <%= ENV['DB_USER'] %>
-  password: <%= ENV['PGPASSWORD'] %>
-  host: <%= ENV['DB_HOST'] %>
+  username: ruby-getting-started
+  password: DpDW^hZDml&KeRod@WTCUl
+  host: 10.102.0.2
 
 
 # As with config/credentials.yml, you never want to store sensitive information,
@@ -98,8 +98,8 @@ production:
   encoding: unicode
   database: dist_database
   pool: 5
-  username: <%= ENV['DB_USER'] %>
-  password: <%= ENV['PGPASSWORD'] %>
-  host: <%= ENV['DB_HOST'] %>
+  username: ruby-getting-started
+  password: DpDW^hZDml&KeRod@WTCUl
+  host: 10.102.0.2
 
 
