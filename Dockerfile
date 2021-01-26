@@ -1,6 +1,6 @@
 FROM ruby:2.7.1
 
-RUN apt-get update     && apt-get install -y --no-install-recommends         nodejs postgresql-client     && rm -rf /var/lib/apt/lists/*
+RUN apt-get install -y apt-utils && apt-get update && apt-get install -y --no-install-recommends nodejs postgresql-client && rm -rf /var/lib/apt/lists/*
 #Envmt
 ENV DB_HOST=$DB_HOST
 ENV DB_USER=$DB_USER
