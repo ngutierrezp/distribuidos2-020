@@ -7,7 +7,7 @@ const endPoints = {
 
 
 const instance = axios.create({
-  baseURL: 'http://35.247.244.102',
+  baseURL: 'https://app.worldgovt.ml',
   timeout: 30000,
 });
 
