@@ -110,7 +110,9 @@ Rails.application.configure do
     domain: 'gmail.com',
     authentication: 'plain',
     user_name: 'worldgovt.dist@gmail.com',
-    password: 'worldgovt123'
+    password: 'worldgovt123',
+    enable_starttls_auto: true,
+    openssl_verify_mode: 'none'
   }
 
   config.action_mailer.default_url_options = { host: 'gmail.com' }
