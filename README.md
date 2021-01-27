@@ -112,6 +112,8 @@ Para el caso de esta prueba, se ha utilizado a 50 usuarios de forma simultánea 
 
 ![Gráfico Escenarios Test de carga](images/test-de-carga.png)
 
+![Gráfico Escenarios Test de estress](images/test-de-estress.png)
+
 De lo anterior se pudo dar cuenta de que se han generado 10508 request teniendo un caso de éxito del 100% con un promedio de tiempo de respuesta de 128ms.
 
 
