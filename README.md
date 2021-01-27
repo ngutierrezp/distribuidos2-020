@@ -112,8 +112,11 @@ Para el caso de esta prueba, se ha utilizado a 50 usuarios de forma simultánea 
 
 ![Gráfico Escenarios Test de carga](images/test-de-carga.png)
 
+De lo anterior se pudo dar cuenta de que se han generado 10508 request teniendo un caso de éxito del 100% con un promedio de tiempo de respuesta de 128ms.
+
 ![Gráfico Escenarios Test de estress](images/test-de-estres.png)
 
-De lo anterior se pudo dar cuenta de que se han generado 10508 request teniendo un caso de éxito del 100% con un promedio de tiempo de respuesta de 128ms.
+Ahora si se realiza otra prueba en cuanto al estres que soporta la aplicación, se puede ver que se ha pasado de tener 25 usuarios simultaneos a tener 50 usuarios simultaneos teniendo un 100% de las request con una tasa de 70ms promedio.
+
 
 
