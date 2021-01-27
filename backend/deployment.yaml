@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ruby-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ruby-app
+  template:
+    metadata:
+      labels:
+        app: ruby-app
+    spec:
+      containers:
+      - name: ruby-app
+        image: gcr.io/vaulted-keel-300920/ruby-app:latest
+        ports:
+        - containerPort: 8080
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 8080
+          initialDelaySeconds: 30
+          timeoutSeconds: 1
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 8080
+          initialDelaySeconds: 30
+          timeoutSeconds: 1
+        env:
+          - name: DB_HOST
+            value: 10.106.0.2
+          - name: DB_USER
+            valueFrom:
+              secretKeyRef:
+                name: ruby-credentials
+                key: user
+          - name: RUBY-GETTING-STARTED_DATABASE_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: ruby-credentials
+                key: password
+          - name: SECRET_KEY_BASE
+            valueFrom:
+              secretKeyRef:
+                name: ruby-credentials
+                key: secret_key_base
