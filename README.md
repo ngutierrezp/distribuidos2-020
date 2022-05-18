@@ -9,4 +9,4 @@ Integrantes del grupo:
 El Repositorio cuenta con 2 Peps las cuales abarcan: 
   
 - **[Pep1 :](https://github.com/ngutierrezp/distribuidos2-2020/tree/Pep-1)**  Realizar un sistema de legado basado en la comisaria virtual que pueda entregar permisos de desplazamiento. 
-- **[Pep2 :](https://github.com/ngutierrezp/distribuidos2-2020/tree/Pep-1)**  Realizar un sistema Distribuido basado en la comisaria virtual que pueda entregar permisos de desplazamiento y que mejore aspectos del sistema legado para que pueda funcionar de forma distribuida.
+- **[Pep2 :](https://github.com/ngutierrezp/distribuidos2-2020/tree/Pep-2)**  Realizar un sistema Distribuido basado en la comisaria virtual que pueda entregar permisos de desplazamiento y que mejore aspectos del sistema legado para que pueda funcionar de forma distribuida.
